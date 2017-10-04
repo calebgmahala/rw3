@@ -308,7 +308,7 @@ footer .nav-links li a:hover {
 	margin: 25px 0 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 /*header*/
 /*footer*/
   footer .nav-links {
