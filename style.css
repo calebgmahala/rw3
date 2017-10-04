@@ -309,8 +309,14 @@ footer .nav-links li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-/*header*/
-/*footer*/
+
+	/*Header*/
+	.nav-links li {
+		padding: 0;
+		float: none;
+	}
+
+  /*footer*/
   footer .nav-links {
     text-align: center;
     font-size: 13px;
@@ -324,3 +330,4 @@ footer .nav-links li a:hover {
     margin: 5px 0;
 }
 }
+
