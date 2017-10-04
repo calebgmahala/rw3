@@ -335,7 +335,8 @@ footer .nav-links li a:hover {
     background-color: #03151c;
     height: 76px;
   }
-  /*footer*/
+  /*Footer*/
+
   footer .nav-links {
     text-align: center;
     font-size: 13px;
@@ -347,6 +348,12 @@ footer .nav-links li a:hover {
     text-align: center;
     font-size: 10px;
     margin: 5px 0;
-}
-}
+	}
 
+	/*Students*/
+	.img-flex img {
+		width: 47%;
+		height: 50%;
+	}
+
+}
