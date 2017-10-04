@@ -71,14 +71,19 @@ h1, h2{
 
 .site-header {
   background-color: #03151c;
-  height: 76px;
 }
-
+.topbar {
+  background-color: #03151c;
+  height: 76px;
+  width: 100px;
+  display: inline-block;
+}
 .nav-links {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   color: #14e9b6;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav-links li {
@@ -312,10 +317,24 @@ footer .nav-links li a:hover {
 
 	/*Header*/
 	.nav-links li {
-		padding: 0;
-		float: none;
+		padding: 25px 5px;
 	}
-
+  .header-nav {
+    background-color: #14e9b6;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .header-nav .nav-links a {
+    color: black;
+  }
+  .header-nav .nav-links span {
+    color: black;
+  }
+  .topbar {
+    background-color: #03151c;
+    height: 76px;
+  }
   /*footer*/
   footer .nav-links {
     text-align: center;
