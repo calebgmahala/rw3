@@ -283,7 +283,9 @@ h1, h2{
 	height: 220px;
 	width: 220px;
 }
-
+.suprise {
+	visibility: hidden;
+}
 /* Footer */
 footer {
 	width: 90%;
@@ -358,6 +360,16 @@ footer .nav-links li a:hover {
 	.img-flex img {
 		width: 47%;
 		height: 50%;
+	}
+	/*Article*/
+	.thirds .abeground {
+		width: 90%;
+	}
+	.schedule {
+		width: 90%;
+	}
+	.suprise {
+		visibility: visible;
 	}
 
 }
