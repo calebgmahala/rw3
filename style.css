@@ -299,7 +299,7 @@ footer .nav-links {
 	text-align: right;
 }
 
-footer .nav-links:hover {
+footer .nav-links li a:hover {
 	color: #14e9b6;
 }
 
@@ -308,4 +308,19 @@ footer .nav-links:hover {
 	margin: 25px 0 10px;
 }
 
-@media only screen and (max-width: 768x)
+@media only screen and (max-width: 768px) {
+/*header*/
+/*footer*/
+  footer .nav-links {
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .nav-links li {
+    padding: 25px 5px;
+  }
+  .footer-copy {
+    text-align: center;
+    font-size: 10px;
+    margin: 5px 0;
+}
+}
