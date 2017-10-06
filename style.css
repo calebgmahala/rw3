@@ -72,6 +72,10 @@ h1, h2{
 .site-header {
   background-color: #03151c;
 }
+header div img {
+  width: 150px;
+  padding-top: 25px;
+}
 .topbar {
   background-color: #03151c;
   height: 76px;
