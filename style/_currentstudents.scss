@@ -1,0 +1,19 @@
+/* Current Students */
+.current-students .mono {
+  width: 40%;
+}
+
+.img-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-flex img {
+  display: flex;
+  margin: 5px;
+  height: 220px;
+  width: 220px;
+}
+.suprise {
+  visibility: hidden;
+}
