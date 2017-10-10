@@ -1,0 +1,45 @@
+/* Header */
+
+.site-header {
+  background-color: #03151c;
+}
+header div img {
+  width: 150px;
+  padding-top: 25px;
+}
+.topbar {
+  background-color: #03151c;
+  height: 76px;
+  width: 100px;
+  display: inline-block;
+}
+.nav-links {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #14e9b6;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 25px 20px;
+}
+
+.nav-links span {
+  color: #14e9b6
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.header-nav {
+  display: inline-block;
+  float: right;
+}
