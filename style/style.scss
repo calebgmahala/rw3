@@ -39,7 +39,7 @@ h1, h2{
 .hero-heading {
   font-weight: bold;
   font-size: 42px;
-  padding-top: 15px
+  padding-top: 15px;
 }
 
 .subheading {
@@ -50,7 +50,7 @@ h1, h2{
 /* The Dad Bod */
 
 .background-bod {
-  background-color: #14e9b6
+  background-color: $teal;
 }
 
 .the-abs {
@@ -169,7 +169,7 @@ h1, h2{
 
 .schedule-block .mono:hover {
   text-decoration: underline;
-  color: #14e9b6
+  color: $teal;
 }
 
 /* Current Students */
@@ -212,7 +212,7 @@ footer .nav-links {
 }
 
 footer .nav-links li a:hover {
-  color: #14e9b6;
+  color: $teal;;
 }
 
 .footer-copy {
@@ -227,7 +227,7 @@ footer .nav-links li a:hover {
     padding: 25px 5px;
   }
   .header-nav {
-    background-color: #14e9b6;
+    background-color: $teal;;
     display: block;
     width: 100%;
     text-align: center;

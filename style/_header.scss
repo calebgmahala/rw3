@@ -16,7 +16,7 @@ header div img {
 .nav-links {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
-  color: #14e9b6;
+  color: $teal;
   text-decoration: none;
   display: inline-block;
 }
@@ -27,7 +27,7 @@ header div img {
 }
 
 .nav-links span {
-  color: #14e9b6
+  color: $teal;
 }
 
 .nav-links:hover {
