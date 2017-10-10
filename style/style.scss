@@ -183,48 +183,11 @@ h1, h2{
 }
 
 /* Current Students */
-.current-students .mono {
-  width: 40%;
-}
+@import 'current-students';
 
-.img-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img-flex img {
-  display: flex;
-  margin: 5px;
-  height: 220px;
-  width: 220px;
-}
-.suprise {
-  visibility: hidden;
-}
 /* Footer */
-footer {
-  width: 90%;
-  margin: 0 auto;
-}
 
-.gradient-bar {
-  width: 100%;
-  height: 5px;
-  @include gradient;
-}
-
-footer .nav-links {
-  text-align: right;
-}
-
-footer .nav-links li a:hover {
-  color: $teal;;
-}
-
-.footer-copy {
-  text-align: right;
-  margin: 25px 0 10px;
-}
+@import 'footer';
 
 @media screen and (max-width: 768px) {
 
