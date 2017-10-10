@@ -55,7 +55,6 @@ h1, h2 {
 .george {
   font-family: Georgia, serif; }
 
-/* Hero Section */
 /* Header */
 .site-header {
   background-color: #03151c; }
@@ -95,6 +94,7 @@ header div img {
   display: inline-block;
   float: right; }
 
+/* Hero Section */
 .hero {
   background-image: url("images/hero.jpg");
   background-repeat: no-repeat;
