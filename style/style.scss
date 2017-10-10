@@ -1,0 +1,234 @@
+@import 'reset';
+@import 'presets';
+/* Fonts */
+h1, h2{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.george {
+  font-family: Georgia, serif;
+}
+
+@import 'header';
+
+/* Hero Section */
+.hero {
+  background-image: url('images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading,
+.subheading {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.hero-heading {
+  font-weight: bold;
+  font-size: 42px;
+  padding-top: 15px;
+}
+
+.subheading {
+  text-transform:uppercase;
+  font-size: 21px;
+}
+
+/* The Dad Bod */
+
+.background-bod {
+  background-color: $teal;
+}
+
+.the-abs {
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.the-abs .content-header,
+.the-abs .mono,
+.the-abs .george {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.content-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #021d2c;
+  font-size: 27px;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 18px;
+  color: #021d2c;
+  line-height: 1.5;
+}
+
+.george {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #021d2c;
+}
+
+.the-abs .content-header {
+  margin: 15px 0;
+}
+
+.the-abs .mono {
+  margin: 15px 0;
+}
+
+.flex-row .george {
+  margin: 15px 30px;
+}
+
+.flex-row .copy:first-of-type {
+  margin-left: 0;
+}
+
+/* Section */
+.thirds {
+  margin-top: 5px;
+  height: 100%;
+}
+/* Aside */
+.abeground{
+  @include gradient;
+  display: inline-block;
+  width: 30%;
+  padding: 95px 3% 100px 7%;
+}
+.objectives li {
+  list-style-type: initial;
+  margin: 15px 15px 15px 0;
+  font-size: 15px;
+}
+.objectives{
+  margin-left: 15px;
+}
+.abeground p.mono {
+  margin-left: 20px 0 25px;
+}
+
+/* Schedule */
+.schedule {
+  display: inline-block;
+  width: 49%;
+  padding: 90px 5% 80px;
+  vertical-align: top;
+}
+
+.schedule .small-header {
+  margin: 40px 0 15px;
+}
+
+.small-header {
+  font-size: 21px;
+}
+
+.schedule-block {
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.schedule-block .mono {
+  text-decoration: none;
+}
+
+.schedule-block span {
+  margin: 0 15px;
+}
+
+.schedule-block .mono:hover {
+  text-decoration: underline;
+  color: $teal;
+}
+
+/* Current Students */
+@import 'current-students';
+
+/* Footer */
+
+@import 'footer';
+
+@media screen and (max-width: 768px) {
+
+  /*Header*/
+  .nav-links li {
+    padding: 25px 5px;
+  }
+  .header-nav {
+    background-color: $teal;;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .header-nav .nav-links a {
+    color: black;
+  }
+  .header-nav .nav-links span {
+    color: black;
+  }
+  .topbar {
+    background-color: #03151c;
+    height: 76px;
+  }
+  /*Footer*/
+
+  footer .nav-links {
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .nav-links li {
+    text-align: center;
+    padding: 25px 5px;
+  }
+  footer nav {
+    text-align: center;
+  }
+  .footer-copy {
+    text-align: center;
+    font-size: 10px;
+    margin: 5px 0;
+  }
+
+  /*Students*/
+  .img-flex img {
+    width: 47%;
+    height: 50%;
+  }
+  /*Article*/
+  .thirds .abeground {
+    width: 90%;
+  }
+  .schedule {
+    width: 90%;
+  }
+  .suprise {
+    visibility: visible;
+  }
+
+}
