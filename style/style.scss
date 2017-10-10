@@ -1,5 +1,5 @@
 @import 'reset';
-
+@import 'presets';
 /* Fonts */
 h1, h2{
   font-family: 'Roboto Condensed', sans-serif;
@@ -112,21 +112,6 @@ h1, h2{
 .thirds {
   margin-top: 5px;
   height: 100%;
-}
-
-@mixin gradient {
-  background: rgba(20,233,183,1);
-  background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-}
-@mixin gradient {
-  background: rgba(20,233,183,1);
-  background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-  background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 }
 /* Aside */
 .abeground{
